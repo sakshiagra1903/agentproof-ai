@@ -1,0 +1,10 @@
+{
+  "trace_id": "demo-agent-run-001",
+  "name": "customer-support-rag",
+  "session_id": "synthetic-session-001",
+  "metadata": {"environment": "demo", "model": "mock-model", "dataset_case_id": "rag-001"},
+  "spans": [
+    {"span_id": "retrieve-1", "name": "retrieve_documents", "kind": "retrieval", "status": "ok", "started_at": "2026-01-01T12:00:00.000Z", "ended_at": "2026-01-01T12:00:00.045Z", "input": {"query": "refund window"}, "output": {"document_ids": ["policy.md"]}, "attributes": {"top_k": 3}},
+    {"span_id": "llm-1", "parent_span_id": "retrieve-1", "name": "generate_answer", "kind": "llm", "status": "error", "started_at": "2026-01-01T12:00:00.046Z", "ended_at": "2026-01-01T12:00:00.180Z", "input": {"prompt_template": "support-v2"}, "error": "Synthetic timeout example", "attributes": {"provider": "mock", "retry_count": 1}}
+  ]
+}

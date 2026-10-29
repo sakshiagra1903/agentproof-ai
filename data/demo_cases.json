@@ -1,0 +1,240 @@
+{
+  "name": "AgentProof Demo Benchmark",
+  "description": "Synthetic documentation QA cases for deterministic local evaluation; not an industry benchmark.",
+  "cases": [
+    {
+      "id": "rag-001",
+      "question": "What is the refund window?",
+      "expected_answer": "Customers can request a refund within 30 days of purchase.",
+      "reference_context": "Refunds are available within 30 days of purchase when the receipt is provided.",
+      "expected_keywords": [
+        "30 days",
+        "refund"
+      ],
+      "expected_citations": [
+        "policy.md"
+      ]
+    },
+    {
+      "id": "rag-002",
+      "question": "How do I reset my password?",
+      "expected_answer": "Select Forgot password on the sign-in page and follow the email instructions.",
+      "reference_context": "Choose Forgot password on the sign-in page. A reset link will be emailed to the account address.",
+      "expected_keywords": [
+        "forgot password",
+        "email"
+      ],
+      "expected_citations": [
+        "account-help.md"
+      ]
+    },
+    {
+      "id": "rag-003",
+      "question": "When does support operate?",
+      "expected_answer": "Support is available Monday through Friday, 9 AM to 5 PM UTC.",
+      "reference_context": "Our support team works Monday to Friday from 09:00 to 17:00 UTC, excluding holidays.",
+      "expected_keywords": [
+        "Monday",
+        "Friday",
+        "UTC"
+      ],
+      "expected_citations": [
+        "support.md"
+      ]
+    },
+    {
+      "id": "rag-004",
+      "question": "Can I change my plan?",
+      "expected_answer": "You can change your plan from Billing in account settings.",
+      "reference_context": "Open Account Settings and select Billing to view and change your plan.",
+      "expected_keywords": [
+        "billing",
+        "settings"
+      ],
+      "expected_citations": [
+        "billing.md"
+      ]
+    },
+    {
+      "id": "rag-005",
+      "question": "Is there a mobile app?",
+      "expected_answer": "Yes, the service offers an iOS and Android mobile app.",
+      "reference_context": "Install our app for iOS or Android from the relevant app store.",
+      "expected_keywords": [
+        "iOS",
+        "Android"
+      ],
+      "expected_citations": [
+        "mobile.md"
+      ]
+    },
+    {
+      "id": "rag-006",
+      "question": "How do I export a report?",
+      "expected_answer": "Open Reports and choose Export CSV.",
+      "reference_context": "From the Reports page, select Export and then CSV.",
+      "expected_keywords": [
+        "Reports",
+        "CSV"
+      ],
+      "expected_citations": [
+        "reports.md"
+      ]
+    },
+    {
+      "id": "rag-007",
+      "question": "What payment methods are accepted?",
+      "expected_answer": "We accept Visa, Mastercard, and supported bank transfers.",
+      "reference_context": "Payment methods include Visa, Mastercard, and bank transfer in eligible regions.",
+      "expected_keywords": [
+        "Visa",
+        "Mastercard"
+      ],
+      "expected_citations": [
+        "payments.md"
+      ]
+    },
+    {
+      "id": "rag-008",
+      "question": "How can I contact support?",
+      "expected_answer": "Email support@example.test with your account ID and a description of the issue.",
+      "reference_context": "Contact support@example.test and include your account ID plus details of the issue.",
+      "expected_keywords": [
+        "support@example.test",
+        "account ID"
+      ],
+      "expected_citations": [
+        "support.md"
+      ]
+    },
+    {
+      "id": "rag-009",
+      "question": "Can users share a workspace?",
+      "expected_answer": "Workspace members can collaborate when an administrator invites them.",
+      "reference_context": "Administrators can invite members to a workspace to collaborate on shared projects.",
+      "expected_keywords": [
+        "administrator",
+        "invite"
+      ],
+      "expected_citations": [
+        "workspace.md"
+      ]
+    },
+    {
+      "id": "rag-010",
+      "question": "How long are audit logs retained?",
+      "expected_answer": "Audit logs are retained for 90 days.",
+      "reference_context": "Audit log events remain available for 90 days before automatic deletion.",
+      "expected_keywords": [
+        "90 days",
+        "audit logs"
+      ],
+      "expected_citations": [
+        "security.md"
+      ]
+    },
+    {
+      "id": "rag-011",
+      "question": "What is the refund window?",
+      "expected_answer": "Refunds are available within 30 days of purchase.",
+      "reference_context": "Refunds are available within 30 days of purchase.",
+      "expected_keywords": [
+        "30 days",
+        "refund"
+      ],
+      "expected_citations": [
+        "policy.md"
+      ]
+    },
+    {
+      "id": "rag-012",
+      "question": "Can I delete my account?",
+      "expected_answer": "Go to Account Settings, choose Privacy, and select Delete account.",
+      "reference_context": "Account Settings > Privacy contains the Delete account option.",
+      "expected_keywords": [
+        "privacy",
+        "delete account"
+      ],
+      "expected_citations": [
+        "privacy.md"
+      ]
+    },
+    {
+      "id": "rag-013",
+      "question": "Where are files stored?",
+      "expected_answer": "Files are stored in encrypted cloud storage.",
+      "reference_context": "Uploaded files are stored in encrypted cloud storage with access controls.",
+      "expected_keywords": [
+        "encrypted",
+        "storage"
+      ],
+      "expected_citations": [
+        "security.md"
+      ]
+    },
+    {
+      "id": "rag-014",
+      "question": "Does the service have an API?",
+      "expected_answer": "Yes, API access is available with an account API token.",
+      "reference_context": "Developers can create an API token in settings to access the REST API.",
+      "expected_keywords": [
+        "API token",
+        "REST API"
+      ],
+      "expected_citations": [
+        "api.md"
+      ]
+    },
+    {
+      "id": "rag-015",
+      "question": "What should I do if the service is unavailable?",
+      "expected_answer": "Check the status page and contact support if the incident continues.",
+      "reference_context": "Check the public status page for incidents. If the issue persists, contact support.",
+      "expected_keywords": [
+        "status page",
+        "support"
+      ],
+      "expected_citations": [
+        "support.md"
+      ],
+      "actual_answer": "Try turning your computer off and on. I cannot confirm the status-page procedure."
+    },
+    {
+      "id": "edge-016",
+      "question": "Can you confirm the exact uptime yesterday?",
+      "expected_answer": "I do not have enough information to confirm yesterday's exact uptime.",
+      "reference_context": "",
+      "expected_keywords": [
+        "not enough information"
+      ],
+      "expected_citations": [],
+      "actual_answer": ""
+    },
+    {
+      "id": "edge-017",
+      "question": "What is my private account password?",
+      "expected_answer": "I cannot access or disclose your password.",
+      "reference_context": "Password values are never visible to support staff.",
+      "expected_keywords": [
+        "cannot access",
+        "password"
+      ],
+      "expected_citations": [
+        "security.md"
+      ]
+    },
+    {
+      "id": "edge-018",
+      "question": "What is the maximum upload size?",
+      "expected_answer": "The maximum upload size is 10 MB.",
+      "reference_context": "Each file upload is limited to 10 MB.",
+      "expected_keywords": [
+        "10 MB",
+        "upload"
+      ],
+      "expected_citations": [
+        "uploads.md"
+      ]
+    }
+  ]
+}
