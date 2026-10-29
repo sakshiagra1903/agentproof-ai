@@ -1,3 +1,5 @@
+<img width="1920" height="1080" alt="Screenshot 2026-10-29 145454" src="https://github.com/user-attachments/assets/9ff5ef0f-326b-49e2-9eeb-c56ae2676013" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-29 171816" src="https://github.com/user-attachments/assets/b5b61343-5f8b-41ac-bf24-d2b46cbb1f0d" />
 # AgentProof AI — GenAI Evaluation & Regression Testing
 
 **A local-first reliability workbench for repeatable GenAI evaluations, regression detection, and agent execution traces.** AgentProof scores supplied answers against reference material, stores runs, highlights regressions, and offers a command-line quality gate. The default demo is deterministic and needs no API key.
